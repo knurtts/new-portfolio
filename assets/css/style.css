@@ -1,0 +1,11 @@
+div {
+    transition: 0.3s;
+}
+
+body {
+    background-image: url("../images/whirlpool.png");
+}
+
+.container {
+    background: #ffffff;
+}

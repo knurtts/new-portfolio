@@ -1,10 +1,15 @@
 body {
     height: 100%;
-    width: 960px;
     margin: auto;
     transition: 0.3s;
 }
 
+#navMobile {
+    padding-top: 15px;
+    height: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 header {
     position: absolute;
@@ -13,34 +18,16 @@ header {
     left: 0;
     background: #4aaaa5;
     color: #ffffff;
-    height: 100px;
+    height: 107px;
     width: 100%;
     border: solid 1px #dddddd;
-    /* text-align: center; */
     transition: 0.3s;
+    margin-bottom: 25px;
 }
 
 div {
     transition: 0.3s;
 }
-
-/*
-.myname {
-    position: relative;
-    right: -300px;
-    top: 0;
-    background: #4aaaa5;
-    height: 85px;
-    width: 400px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 15px;
-    transition: 0.3s;
-}
-
-.nav {
-    margin: 5px;
-} */
 
 a {
     text-decoration: none;
@@ -64,14 +51,8 @@ a:visited {
 }
 
 #main {
-    /* margin: 50px auto auto auto;  */
     background: #ffffff;
     border: solid 1px #dddddd;
-    /* position: absolute; 
-    top: 120px;
-    left: auto;
-    right: auto;
-    margin: 15px;*/
     padding-top: 5px; 
     transition-duration: 0.3s;
 }
@@ -89,9 +70,9 @@ a:visited {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
     border-bottom: solid #777777 1px;
     transition-duration: 0.3s;
-
 }
 
 
@@ -149,5 +130,15 @@ footer {
         
     .myname {
         width: 100%;
+    }
+}
+
+@media (max-width: 440px) {
+    #myName {
+        font-size: 1.4rem;
+    }
+
+    .about {
+        font-size: 1.6rem;
     }
 }
